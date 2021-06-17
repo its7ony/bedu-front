@@ -1,5 +1,5 @@
 body {
-  background-color: #69c2c5;
+  background-color: #e2e1e1;
   text-align: center;
   font-family: sans-serif;
 }
@@ -48,4 +48,52 @@ p::selection {
 button:hover {
   background-color: #01282b;
   cursor: pointer;
+}
+
+header {
+  margin: 40px 20px 0px 20px;
+  font-size: 0;
+  font-family: sans-serif;
+  line-height: 45px;
+}
+
+header > * {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.logo {
+  width: 15%;
+}
+
+.navbar {
+  width: 70%;
+  text-align: center;
+  color: #013b3f;
+}
+
+.nav-item {
+  display: inline;
+  margin: 0 25px;
+  color: #025157;
+}
+
+.action {
+  width: 15%;
+  text-align: right;
+  font-size: 14px;
+}
+
+.action-link {
+  color: #67b54b;
+  text-decoration: none;
+}
+
+.action-button {
+  margin: 0 10px;
+  background-color: #67b54b;
+  color: #fff;
+  padding: 12px 14px;
 }
