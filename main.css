@@ -111,8 +111,8 @@ section {
 }
 
 .promo {
+  width: 90%;
   display: flex;
-  width: 70%;
   margin: 100px auto;
   align-items: center;
   justify-content: space-between;
