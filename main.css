@@ -57,11 +57,23 @@ header {
   line-height: 45px;
 }
 
+.fixed-header {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 header > * {
   display: inline-block;
   font-size: 16px;
   vertical-align: middle;
   height: 100%;
+}
+
+section {
+  padding-top: 1.5em;
 }
 
 .logo {
@@ -96,4 +108,38 @@ header > * {
   background-color: #67b54b;
   color: #fff;
   padding: 12px 14px;
+}
+
+.promo {
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.promo-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.publish {
+  justify-content: space-between;
+}
+
+.publish h2 {
+  color: #025157;
+}
+
+.publish p {
+  color: #343434;
+}
+
+.publish form {
+  background-color: transparent;
+}
+
+.publish form p {
+  color: #969696;
 }
