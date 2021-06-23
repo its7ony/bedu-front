@@ -32,6 +32,11 @@ p {
   color: #292929e1;
 }
 
+h2,
+h4 {
+  color: #0d5158;
+}
+
 button {
   padding: 8px 16px;
   border-radius: 8px;
@@ -40,29 +45,11 @@ button {
   border: none;
 }
 
-p::selection {
-  color: whitesmoke;
-  background: #292929e1;
-}
-
-button:hover {
-  background-color: #01282b;
-  cursor: pointer;
-}
-
 header {
   margin: 40px 20px 0px 20px;
   font-size: 0;
   font-family: sans-serif;
   line-height: 45px;
-}
-
-.fixed-header {
-  position: fixed;
-  background-color: white;
-  top: 0;
-  left: 0;
-  right: 0;
 }
 
 header > * {
@@ -74,6 +61,19 @@ header > * {
 
 section {
   padding-top: 1.5em;
+}
+
+p::selection {
+  color: whitesmoke;
+  background: #292929e1;
+}
+
+.fixed-header {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .logo {
@@ -142,4 +142,97 @@ section {
 
 .publish form p {
   color: #969696;
+}
+
+.who {
+  background-color: #a1d683;
+  display: flex;
+  text-align: left;
+}
+
+.who h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.who img {
+  width: 100%;
+}
+
+.who button {
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+}
+
+.who-use {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
+  margin: 8rem;
+}
+
+.who-use p {
+  color: #495443;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.8em;
+}
+
+.who-banner {
+  background-color: #fff;
+  width: 40%;
+  margin: 4rem 8rem;
+  border-radius: 1.5rem;
+}
+
+.who-banner-container {
+  display: flex;
+  position: relative;
+}
+
+.who-banner-logo {
+  position: absolute;
+  background-color: #f9da73;
+  top: -5em;
+  right: 1.5em;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.who-banner-logo img {
+  margin-top: 1.8em;
+}
+
+.who-banner-content {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.who-banner-content p {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.who-banner-footer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.who-banner-footer p {
+  font-size: 1rem;
+  margin: 10px;
+  color: #a3a3a3;
+}
+
+.who-banner-footer img {
+  width: 30px;
+  height: 30px;
+}
+
+button:hover {
+  background-color: #01282b;
+  cursor: pointer;
 }
