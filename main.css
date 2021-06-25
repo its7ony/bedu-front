@@ -1,6 +1,6 @@
 body {
   background-color: #e2e1e1;
-  text-align: center;
+  text-align: center;*/
   font-family: sans-serif;
 }
 
@@ -235,4 +235,78 @@ p::selection {
 button:hover {
   background-color: #01282b;
   cursor: pointer;
+}
+
+/*
+Regresa la cantidad de columnas a las que realmente necesitamos (2) 
+y agrega la cantidad de filas que usaremos (2) 
+teniendo en cuenta que el alto será de 330px. 
+Una vez logrado, 
+¿cómo se te ocurre que podrías usar la unidad de 
+fr para indicar el alto de las filas?
+
+.features {
+  display: grid;
+  height: 660px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.features > .feature-art {
+  background-color: rgb(115, 160, 160);
+  margin: 10px;
+}
+*/
+
+.cards {
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  background-color: #0d5158;
+  padding: 4% 8%;
+}
+
+.card-art {
+  border-radius: 8px;
+  display: grid;
+  text-align: left;
+  background-color: #fff;
+  grid-template-columns: 1fr 35%;
+  margin: 1rem;
+}
+
+.card-section {
+  margin: 1.5em 0 1.5em 2.5em;
+}
+
+.card-section-icon {
+  width: 15%;
+}
+
+.card-section > h3 {
+  color: #343434;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-stretch: 28.8px;
+}
+
+.card-section > p {
+  color: #7e7e7e;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+}
+
+.card-section > a {
+  color: #67b54b;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.card-section-image {
+  object-fit: cover;
+  object-position: left;
+  width: 100%;
+  height: 100%;
 }
