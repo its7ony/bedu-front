@@ -309,3 +309,95 @@ fr para indicar el alto de las filas?
   width: 100%;
   height: 100%;
 }
+
+.how-matcha-works h2,
+h3 {
+  font-family: "Alegreya", "Helvetica Neue", sans-serif;
+  color: #025157;
+}
+
+.how-matcha-works a {
+  color: #67b54b;
+  text-decoration: none;
+}
+
+.how-matcha-works button {
+  margin: 2% 0 5% 0;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #025157;
+  color: #fff;
+  font-size: 14px;
+  font-stretch: 21px;
+  font-weight: bolder;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.how-matcha-works {
+  text-align: center;
+  padding: 5% 10%;
+  background-color: #fffbf7;
+}
+
+.how-matcha-works-main {
+  padding: 0 12.5em;
+}
+.how-matcha-works-main > h2 {
+  font-size: 50px;
+  font-stretch: 60px;
+}
+
+.how-matcha-works-main p {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-stretch: 27px;
+  color: #46484c;
+  font-weight: 800;
+}
+
+.how-matcha-works-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 3%;
+}
+
+.how-matcha-works-art {
+  padding: 1em 0;
+  border: 1px solid #d4d3d3;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.how-matcha-works-art > h3 {
+  font-size: 30px;
+  font-stretch: 36px;
+}
+
+.how-matcha-works-art p {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  color: #46484c;
+  font-size: 15px;
+  font-stretch: 22.5px;
+  font-weight: bold;
+}
+
+.how-matcha-works-art a {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-stretch: 22.4px;
+}
+
+.how-matcha-works-art-img {
+  width: 100%;
+  height: 60%;
+}
+
+.how-matcha-works-art-logo-container {
+  position: relative;
+}
+.how-matcha-works-art-logo-container > img {
+  width: 10%;
+  position: absolute;
+  left: 10%;
+  top: 20px;
+}
