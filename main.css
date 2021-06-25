@@ -1,12 +1,7 @@
 body {
   background-color: #e2e1e1;
-  text-align: center;*/
+  text-align: center;
   font-family: sans-serif;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
 }
 
 input {
@@ -66,6 +61,11 @@ section {
 p::selection {
   color: whitesmoke;
   background: #292929e1;
+}
+
+.img-logo {
+  display: block;
+  margin: 0 auto;
 }
 
 .fixed-header {
@@ -236,7 +236,6 @@ button:hover {
   background-color: #01282b;
   cursor: pointer;
 }
-
 /*
 Regresa la cantidad de columnas a las que realmente necesitamos (2) 
 y agrega la cantidad de filas que usaremos (2) 
@@ -256,8 +255,8 @@ fr para indicar el alto de las filas?
   background-color: rgb(115, 160, 160);
   margin: 10px;
 }
-*/
 
+*/
 .cards {
   display: grid;
   height: 100%;
