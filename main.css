@@ -13,15 +13,6 @@ input {
   border-radius: 8px;
 }
 
-form {
-  width: 90%;
-  background-color: teal;
-  padding: 8px 16px;
-  border-radius: 8px;
-  text-align: left;
-  display: inline-block;
-}
-
 h1,
 p {
   color: #292929e1;
@@ -411,6 +402,15 @@ h3 {
   top: 20px;
 }
 
+.publish-form {
+  background-color: teal;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
   .navbar,
@@ -423,6 +423,25 @@ h3 {
 
   main {
     margin-top: 0;
+  }
+
+  .publish > form {
+    flex-direction: column;
+  }
+
+  .promo {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .promo-row > video {
+    width: 100%;
+  }
+
+  .cards {
+    display: grid;
+    grid-template: repeat(4, 1fr) / 1fr;
   }
 }
 
