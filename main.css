@@ -32,6 +32,10 @@ h4 {
   color: #0d5158;
 }
 
+h1 {
+  font-size: 60px;
+}
+
 button {
   padding: 8px 16px;
   border-radius: 8px;
@@ -69,7 +73,7 @@ p::selection {
 }
 
 .fixed-header {
-  position: fixed;
+  position: sticky;
   background-color: white;
   top: 0;
   left: 0;
@@ -400,4 +404,31 @@ h3 {
   position: absolute;
   left: 10%;
   top: 20px;
+}
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+  .navbar,
+  .action {
+    display: none;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
 }
