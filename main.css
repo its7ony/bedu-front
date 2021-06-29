@@ -413,10 +413,11 @@ h3 {
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-  .navbar,
-  .action {
-    display: none;
+  header > * {
+    height: 100%;
+    display: inline;
   }
+
   h1 {
     font-size: 30px;
   }
@@ -468,5 +469,10 @@ h3 {
   .how-matcha-works-main > h2 {
     font-size: 25px;
     font-stretch: 30px;
+  }
+
+  .navbar,
+  .action {
+    display: none;
   }
 }
