@@ -443,20 +443,30 @@ h3 {
     display: grid;
     grid-template: repeat(4, 1fr) / 1fr;
   }
-}
 
-/** dispositivos pequeños en vista landscape (horizontal) */
-@media (min-width: 576px) and (max-width: 767px) {
-}
+  .who {
+    background-color: #a1d683;
+    flex-direction: column;
+  }
 
-/** dispositivos medianos (tablets) */
-@media (min-width: 768px) and (max-width: 991px) {
-}
+  .who-use {
+    width: 50%;
+  }
 
-/** dispositivos grandes (desktops) */
-@media (min-width: 992px) and (max-width: 1199px) {
-}
+  .who-banner {
+    width: 50%;
+  }
 
-/** dispositivos extra grandes (monitores grandes, tvs) */
-@media (min-width: 1200px) {
+  .how-matcha-works-main {
+    padding: 0;
+  }
+  .how-matcha-works-container {
+    grid-template: repeat(4, 1fr) / 1fr;
+    row-gap: 50px;
+    height: 100%;
+  }
+  .how-matcha-works-main > h2 {
+    font-size: 25px;
+    font-stretch: 30px;
+  }
 }
