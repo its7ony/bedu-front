@@ -80,11 +80,11 @@ p::selection {
   width: 15%;
 }
 
-.navbar {
+/* .navbar {
   width: 70%;
   text-align: center;
   color: #013b3f;
-}
+} */
 
 .nav-item {
   display: inline;
@@ -471,8 +471,8 @@ h3 {
     font-stretch: 30px;
   }
 
-  .navbar,
+  /*.navbar,
   .action {
     display: none;
-  }
+  }*/
 }
