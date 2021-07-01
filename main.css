@@ -110,6 +110,32 @@ p::selection {
   padding: 12px 14px;
 }
 
+.carousel-inner > .carousel-item > img {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.list {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.list-group > .active {
+  background-color: #025157;
+  border: none;
+}
+
+.card-body > a {
+  border: none;
+  background-color: #025157;
+}
+
+.card-body > a:hover {
+  border: 1px solid #025157;
+  background-color: #fff;
+  color: #025157;
+}
+
 .promo {
   width: 90%;
   display: flex;
@@ -423,7 +449,7 @@ h3 {
   }
 
   main {
-    margin-top: 0;
+    margin-top: 10%;
   }
 
   .publish > form {
