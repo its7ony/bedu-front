@@ -1,0 +1,73 @@
+/** colores */
+$dark-green-title: #025157;
+$dark-green-text: #135359;
+$white: white;
+$gray: #4a4a4a;
+$light-gray: #979797;
+$light-green: #67b54b;
+
+/** fuentes */
+$font-title: "Alegreya", serif;
+$font-card: "Open Sans", "Helvetica Neue", sans-serif;
+
+/** tamaños **/
+$full-size: 100%;
+$middle-size: 50%;
+$quater-size: 25%;
+$none-size: 0%;
+
+$font-size-title: 24px;
+$font-size-title-read: 14px;
+$font-size-description: 18px;
+
+/** alineaciones **/
+$left: left;
+$right: right;
+$top: top;
+$bottom: bottom;
+$center: center;
+
+/** propiedades display **/
+$block: block;
+$inline-block: inline-block;
+$flex: flex;
+$grid: grid;
+
+/** decoradores **/
+$underline: underline;
+
+/** placeholders */
+%base-title {
+  font-family: $font-title;
+  color: $dark-green-text;
+}
+
+%card-title {
+  font-family: $font-card;
+  font-size: $font-size-title;
+  line-height: 27px;
+}
+
+%card-title-read {
+  font-size: $font-size-title-read;
+  font-family: $font-card;
+}
+
+%card-description {
+  font-family: $font-card;
+  font-size: $font-size-description;
+  color: $gray;
+  line-height: 27px;
+}
+
+%author {
+  display: $flex;
+  gap: 5%;
+  justify-content: $left;
+}
+
+%author > img {
+  border-radius: $middle-size;
+  width: 15%;
+  height: 15%;
+}

@@ -262,27 +262,7 @@ button:hover {
   background-color: #01282b;
   cursor: pointer;
 }
-/*
-Regresa la cantidad de columnas a las que realmente necesitamos (2) 
-y agrega la cantidad de filas que usaremos (2) 
-teniendo en cuenta que el alto será de 330px. 
-Una vez logrado, 
-¿cómo se te ocurre que podrías usar la unidad de 
-fr para indicar el alto de las filas?
 
-.features {
-  display: grid;
-  height: 660px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-}
-
-.features > .feature-art {
-  background-color: rgb(115, 160, 160);
-  margin: 10px;
-}
-
-*/
 .cards {
   display: grid;
   height: 100%;
